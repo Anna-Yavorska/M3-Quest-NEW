@@ -19,7 +19,7 @@
         на тебе чекають випробування. Кожен з богів перевірить твою мудрість, мужність і вірність.
         Помилка означає загибель.</p>
     <p class="lead text-danger fw-bold">Чи готовий ти прийняти виклик?</p>
-    <form action="game" method="post">
+    <form action="quiz" method="get">
         <button type="submit" class="btn btn-custom btn-lg">Прийняти виклик</button>
     </form>
 </div>

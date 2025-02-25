@@ -31,3 +31,16 @@ body {
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
+.card-title {
+    color: #000000;
+}
+.card {
+    background-color: #baac8d;
+    color: #5E4B3C;
+}
+.btn-primary {
+    color: #000000;
+    background-color: rgb(237, 202, 15);
+    border-color: black;
+}
