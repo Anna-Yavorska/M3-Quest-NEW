@@ -30,7 +30,7 @@
 <div class="container d-flex justify-content-center align-items-center vh-100">
     <div class="card text-center w-75">
         <h2 class="card-title">Випробування богів</h2>
-        <img src="<%= godImage %>" class="img-fluid mx-auto d-block" alt="Бог Олімпу">
+        <img src="<%= godImage %>" class="img-fluid mx-auto d-block" style="height: 250px;" alt="Бог Олімпу">
         <div class="card-body">
             <p class="card-text fs-4"><%= questionText %></p>
             <form action="quiz" method="post">
