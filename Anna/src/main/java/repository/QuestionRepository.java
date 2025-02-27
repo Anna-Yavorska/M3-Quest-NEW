@@ -11,18 +11,6 @@ public class QuestionRepository {
 
     private QuestionRepository() {
         questions = new ArrayList<>();
-//        ArrayList<String> answers = new ArrayList<>();
-//        answers.add("A");
-//        answers.add("B");
-//        answers.add("C");
-//        answers.add("Programming language");
-//
-//        questions.add(Question.builder()
-//                .text("What is java?")
-//                .answers(answers)
-//                .correctAnswer(3)
-//                .build());
-
 
         questions.add(Question.builder()
                 .text("Грім роздирає небо, і ти стоїш перед Зевсом. Він каже: “Смертний, щоб отримати силу блискавки, ти маєш знати, що найважливіше для правителя. Що ти обереш?”")

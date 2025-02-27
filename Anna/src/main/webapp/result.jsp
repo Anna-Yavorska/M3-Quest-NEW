@@ -15,7 +15,8 @@
         <% Boolean win = (Boolean) session.getAttribute("win"); %>
         <% if (win != null && win) { %>
         <img src="resources/images/gods.jpg" class="w-50 game-image" alt="Боги Олімпу">
-        <p style="margin-top: 20px">Вітаємо! Ти пройшов усі випробування! Ти гідний отримати дари від Нас, та зможеш відвернути катастрофу!</p>
+        <p style="margin-top: 20px">Вітаємо! Ти пройшов усі випробування! Ти гідний отримати дари від Нас, та зможеш
+            відвернути катастрофу!</p>
         <% } else { %>
         <p>На жаль, ти програв. Боги не дали тобі сили.</p>
         <% } %>

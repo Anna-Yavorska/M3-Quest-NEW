@@ -32,7 +32,8 @@
         <h2 class="card-title">Випробування богів</h2>
         <img src="<%= godImage %>" class="img-fluid mx-auto d-block" style="height: 250px;" alt="Бог Олімпу">
         <div class="card-body">
-            <p class="card-text fs-4"><%= questionText %></p>
+            <p class="card-text fs-4"><%= questionText %>
+            </p>
             <form action="quiz" method="post">
                 <% for (int i = 0; i < answers.size(); i++) { %>
                 <button type="submit" name="answer" value="<%= i %>" class="btn btn-primary d-block my-2 w-50 mx-auto">

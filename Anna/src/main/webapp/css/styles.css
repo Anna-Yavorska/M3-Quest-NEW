@@ -35,10 +35,12 @@ body {
 .card-title {
     color: #000000;
 }
+
 .card {
     background-color: #baac8d;
     color: #5E4B3C;
 }
+
 .btn-primary {
     color: #000000;
     background-color: rgb(237, 202, 15);
