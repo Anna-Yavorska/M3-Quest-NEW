@@ -4,6 +4,8 @@ This is a text-based adventure game where the player must pass the trials of the
 a catastrophe. The game is built using Java (Servlets, JSP, JSTL, Maven, JUnit) and runs on Tomcat 9. It uses Bootstrap
 5 for styling.
 
+This project is deployed on **Render** https://m3-quest-new-2ziq.onrender.com
+
 ---
 
 ## 📌 Features
